@@ -30,7 +30,6 @@ fb_appid:
 collections:
   posts:
     output: true
-  - long_running_posts
 
 # Markdown settings
 markdown: kramdown
