@@ -164,3 +164,6 @@ I was getting confused at first tackling this problem since I was **using the wr
 
 25th: Merry Christmas! I began digging into `vty`, a `ncurses` alternative written in Haskell. `vty` is a precursor of `brick`, which I plan to dig into in the future.
 
+### February 2023
+
+7th, 8th: I've taken a huge break from FP due to school but now I'm back. I began digging into the Parsec library and learned the basics of Parsec via this [article](https://book.realworldhaskell.org/read/using-parsec.html). Since I eventually want to produce a code-base-deep-dive video on Parsec, I am reading earlier papers on Monadic Parser Combinators to gain a thorough understanding. I am 10 pages into Hutton's [work](https://www.cs.nott.ac.uk/~pszgmh/monparsing.pdf). The most important improvement that Parsec since made is better error handling and performance.
