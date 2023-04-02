@@ -167,3 +167,11 @@ I was getting confused at first tackling this problem since I was **using the wr
 ### February 2023
 
 7th, 8th: I've taken a huge break from FP due to school but now I'm back. I began digging into the Parsec library and learned the basics of Parsec via this [article](https://book.realworldhaskell.org/read/using-parsec.html). Since I eventually want to produce a code-base-deep-dive video on Parsec, I am reading earlier papers on Monadic Parser Combinators to gain a thorough understanding. I am 10 pages into Hutton's [work](https://www.cs.nott.ac.uk/~pszgmh/monparsing.pdf). The most important improvement that Parsec since made is better error handling and performance.
+
+### Apr 2023
+From Feb 8th to Apr 2nd: 
+- Read [A History of Haskell: being lazy with class](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.168.4008&rep=rep1&type=pdf)
+- Read [It's Easy As 1, 2, 3](https://www.cs.nott.ac.uk/~pszgmh/123.pdf)
+    - Inspired me to read the Semantic Algebras chapter of [Denotational Semantics, A Methodology for Language Development](https://www.google.com/search?q=schmidt+denotational+semantics&oq=schimdt+denotational+semantics&aqs=chrome..69i57j33i10i160j33i299.6393j0j7&sourceid=chrome&ie=UTF-8&si=AMnBZoGh_HM3J_-U1hyC2-ep11yDw5aKTM8ASg3cFDT_bpkmN-nz5Mys77G29AQiHAXdbAd7TklX5aUP33W1kspyQShjpUO0COnYw2TFvAFB9cDkpqyU_igPXLp5DmM54gWv62A3829WebxaSMHIzi44AILQgKHgUcLtdgjqSa_Gtpqc0NXnW-3Z1XETi1Y3HKkzrB5rNFE4&ictx=1&ved=2ahUKEwjZuOfJsYz-AhVbE1kFHcvoC78QnZMFegQIWRAC)
+
+- For my undergrad research on *Interpreting Language Models for Functional Programming*, I defined a taxonomy for Haskell (mapping Haskell grammar rules to general categories, e.g., `algebraic data types` belongs to the category `type system`). In defining this taxonomy, I came across many Haskell extensions that was complex for me to organize. Thankfully, I discovered [Thinking with Types, Type-Level Programming in Haskell](https://thinkingwithtypes.com/). I am only one chapter in, but I plan to finish this book.
