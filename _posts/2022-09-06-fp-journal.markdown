@@ -175,3 +175,8 @@ From Feb 8th to Apr 2nd:
     - Inspired me to read the Semantic Algebras chapter of [Denotational Semantics, A Methodology for Language Development](https://www.google.com/search?q=schmidt+denotational+semantics&oq=schimdt+denotational+semantics&aqs=chrome..69i57j33i10i160j33i299.6393j0j7&sourceid=chrome&ie=UTF-8&si=AMnBZoGh_HM3J_-U1hyC2-ep11yDw5aKTM8ASg3cFDT_bpkmN-nz5Mys77G29AQiHAXdbAd7TklX5aUP33W1kspyQShjpUO0COnYw2TFvAFB9cDkpqyU_igPXLp5DmM54gWv62A3829WebxaSMHIzi44AILQgKHgUcLtdgjqSa_Gtpqc0NXnW-3Z1XETi1Y3HKkzrB5rNFE4&ictx=1&ved=2ahUKEwjZuOfJsYz-AhVbE1kFHcvoC78QnZMFegQIWRAC)
 
 - For my undergrad research on *Interpreting Language Models for Functional Programming*, I defined a taxonomy for Haskell (mapping Haskell grammar rules to general categories, e.g., `algebraic data types` belongs to the category `type system`). In defining this taxonomy, I came across many Haskell extensions that was complex for me to organize. Thankfully, I discovered [Thinking with Types, Type-Level Programming in Haskell](https://thinkingwithtypes.com/). I am only one chapter in, but I plan to finish this book.
+
+Apr 3rd: A few pages of Thinking in Types (I abbreviate as TiT from now).
+Fully applied (saturated) TypeClasses always end in `Constraint`, this single fact seems to be the missing piece for me to internalize the non-extended Haskell's type system. Previously, I learned from `HPFFP` that 
+a type constructor like `Maybe` has kind `* -> *`, but I think I never
+remembered these stuff well because I didn't internalize where TypeClasses fit in the whole scheme.
