@@ -180,3 +180,6 @@ Apr 3rd: A few pages of Thinking in Types (I abbreviate as TiT from now).
 Fully applied (saturated) TypeClasses always end in `Constraint`, this single fact seems to be the missing piece for me to internalize the non-extended Haskell's type system. Previously, I learned from `HPFFP` that 
 a type constructor like `Maybe` has kind `* -> *`, but I think I never
 remembered these stuff well because I didn't internalize where TypeClasses fit in the whole scheme.
+
+May 8th: Sorry! Another big skip. I didn't do much last month. Today, I reread
+TiT Chapter 1, took notes, and did the exercises. The big idea I learned is that the Curry-Howard correspondence/isomorphism allows us to analyze mathematical theorems through the lens of functional programming. We get surprising results, for example, somehow, the power of power rule corresponds to currying.
