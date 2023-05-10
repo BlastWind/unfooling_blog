@@ -129,15 +129,15 @@ Read almost all of HPFFP Ch.14 on testing, still internalizing `Arbitrary` and `
 22nd: Exercise #1 on the FP Complete article
 
 23rd: Took me 2 hrs to write this for the article's Exercise #2:
+```haskell
+foldTerminateM :: Monad m=> (b -> a -> m(Either b b)) -> b -> [a] -> m b
 
-    foldTerminateM :: Monad m=> (b -> a -> m(Either b b)) -> b -> [a] -> m b
-    
-    foldTerminateM f accum (x:xs) = fmap (either id id) $ runExceptT $ do
-                                        b <- ExceptT $ f accum x
-                                        lift $ foldTerminateM f b xs
-    
-    foldTerminateM f accum [] = return accum
+foldTerminateM f accum (x:xs) = fmap (either id id) $ runExceptT $ do
+                                    b <- ExceptT $ f accum x
+                                    lift $ foldTerminateM f b xs
 
+foldTerminateM f accum [] = return accum
+```
 I was getting confused at first tackling this problem since I was **using the wrong "lifting action"**. Specifically, I was doing `return $ foldTerminateM f b xs` instead of `lift $ foldTerminateM f b xs`.
 
 26th: Exercise 3. Going to take a detour to study [Lenses](https://www.fpcomplete.com/haskell/tutorial/lens/) since exercise 4 depends on it.
@@ -183,3 +183,23 @@ remembered these stuff well because I didn't internalize where TypeClasses fit i
 
 May 8th: Sorry! Another big skip. I didn't do much last month. Today, I reread
 TiT Chapter 1, took notes, and did the exercises. The big idea I learned is that the Curry-Howard correspondence/isomorphism allows us to analyze mathematical theorems through the lens of functional programming. We get surprising results, for example, somehow, the power of power rule corresponds to currying.
+
+May 9th: Reread TiT Ch2.1 and 2.2. This time around, I've cleared up many concepts, for example
+- `(->)` is higher kind
+- Exact difference between `TYPE` (`*`) and type
+As last time, I got stuck when reading the admin token example. But I did more digging into the example and learned:
+- `Proxy` is a type constructor whose only type variable is poly-kinded. That's how it's able to pass any type around.
+- One usage of `forall` is to allow for type variables to show up in data constructors but not in their type constructors.
+```haskell
+data Worker x y = forall b. Buffer b => Worker { buffer :: b, input :: x, output :: y} 
+```
+- Scoped Type Variables allow free variables to be re-used in the scope of a function. 
+```haskell
+mkpair :: forall a b. a -> b -> (a, b)
+mkpair aa bb = (ida aa, bb) 
+    where 
+      -- ida :: b -> b would error!
+      ida :: a -> a -- Refers to "a" in the type signature.
+      ida = id
+```
+Yet, I still don't understand the admin token example. I checked out TiT's source repo and it didn't have that part filled in. However, I did find more code around the TicTacToe example in Ch1 that taught me a few more things. I'll skip this example for now.
