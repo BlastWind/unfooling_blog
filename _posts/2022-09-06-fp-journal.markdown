@@ -203,3 +203,24 @@ mkpair aa bb = (ida aa, bb)
       ida = id
 ```
 Yet, I still don't understand the admin token example. I checked out TiT's source repo and it didn't have that part filled in. However, I did find more code around the TicTacToe example in Ch1 that taught me a few more things. I'll skip this example for now.
+
+May 10th: Finishes TiT Ch2. Learned about how lists and tuples behave in type-level programming. I don't have the intuition down, but I kept querying `GHCi` to 
+get practice. Here're some of my queries and results: 
+```haskell
+:set -XDataKinds
+
+> :t [] 
+[] :: [a]
+> :k []
+[] :: * -> *
+> :k [Bool]
+[Bool] :: *
+> :k '[]
+'[] :: [a]
+> :t '[] -- throws error.
+> :k '[ Bool ]
+'[ Bool ] :: [*]
+> :k '[ 'True ]
+'[ 'True ] :: [Bool]
+```
+I stumbled half an hour into Ch3, couldn't understand much. This textbook is not beginner friendly.
