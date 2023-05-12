@@ -224,3 +224,18 @@ get practice. Here're some of my queries and results:
 '[ 'True ] :: [Bool]
 ```
 I stumbled half an hour into Ch3, couldn't understand much. This textbook is not beginner friendly.
+
+May 11th: 
+
+Finished TiT Ch3-Ch4.2. Confused about the following two statements from the Ch3, they seem conflicting with each other.
+1) Variance is a property of a type in relation to one of its type constructors.
+2) The variance of a type `T a` with respect to its type variable `a` is ...
+By the definition of 1), it seems off to say 2). I skip this for now.
+Coolest thing I learned is the positive/negative positioning trick to quickly determine a type's variance.
+
+Then, I read the FPComplete's [Covariance and Contravariance](https://www.fpcomplete.com/blog/2016/11/covariance-contravariance/) article and learned the mappings between Haskell typeclasses and variance
+(e.g., `Profunctor` is a bifunctor where the first argument is contravariant and the second argument is covariant). 
+
+Onto Ch4 —
+- I filled in a knowledge gap of `forall` from before. I knew that `forall` can be applied in ADT declaration. But when there're applied to functions, they moreso expand the type variables' scope to the entire function (in conjunction with `XScopedTypeVariables`).
+- `XTypeApplications` allow us to apply types to polymorphic functions in the same way we can apply value arguments to functions. 
