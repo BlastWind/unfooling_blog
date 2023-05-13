@@ -225,9 +225,7 @@ get practice. Here're some of my queries and results:
 ```
 I stumbled half an hour into Ch3, couldn't understand much. This textbook is not beginner friendly.
 
-May 11th: 
-
-Finished TiT Ch3-Ch4.2. Confused about the following two statements from the Ch3, they seem conflicting with each other.
+May 11th: Finished TiT Ch3-Ch4.2. Confused about the following two statements from the Ch3, they seem conflicting with each other.
 1) Variance is a property of a type in relation to one of its type constructors.
 2) The variance of a type `T a` with respect to its type variable `a` is ...
 By the definition of 1), it seems off to say 2). I skip this for now.
@@ -239,3 +237,18 @@ Then, I read the FPComplete's [Covariance and Contravariance](https://www.fpcomp
 Onto Ch4 —
 - I filled in a knowledge gap of `forall` from before. I knew that `forall` can be applied in ADT declaration. But when there're applied to functions, they moreso expand the type variables' scope to the entire function (in conjunction with `XScopedTypeVariables`).
 - `XTypeApplications` allow us to apply types to polymorphic functions in the same way we can apply value arguments to functions. 
+
+May 12th: Finished TiT Ch4.3-Ch5. Learned about how to write a heterogeneous list and that the GADTs syntax is just syntactic sugar upon type equalities. So, I challenged myself to write `HList` with the latter: 
+
+```haskell
+data HList (xs :: [Type]) 
+    = HNil
+    | forall t ts. (xs ~ (t ': ts)) => t (:#) HList ts
+```
+This allows for functions like 
+
+```haskell
+showBool :: HList '[_1, Bool, _2] -> String
+```
+
+Afterwards, I wrote the `Eq`, `Show`, and `Ord` instances for `HList` because GHC can't derive GADTs instances well. To do this efficiently, I also learned to write the closed type family `All` to fold `[TYPE]` into a `CONSTRAINT`. 
