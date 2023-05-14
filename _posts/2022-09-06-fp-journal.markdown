@@ -252,3 +252,7 @@ showBool :: HList '[_1, Bool, _2] -> String
 ```
 
 Afterwards, I wrote the `Eq`, `Show`, and `Ord` instances for `HList` because GHC can't derive GADTs instances well. To do this efficiently, I also learned to write the closed type family `All` to fold `[TYPE]` into a `CONSTRAINT`. 
+
+May 13th: Finished TiT Ch6-Ch6.3. 
+
+Biggest takeaway: Universally quantified type variables are instantiated at the call site while existentially quantified type variables can be instantiated in the function definition. With existentially quantified type variables, we can take in a truly polymorphic functions, and then instantiate it if needed. 
