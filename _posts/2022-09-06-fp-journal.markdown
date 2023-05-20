@@ -256,3 +256,16 @@ Afterwards, I wrote the `Eq`, `Show`, and `Ord` instances for `HList` because GH
 May 13th: Finished TiT Ch6-Ch6.3. 
 
 Biggest takeaway: Universally quantified type variables are instantiated at the call site while existentially quantified type variables can be instantiated in the function definition. With existentially quantified type variables, we can take in a truly polymorphic functions, and then instantiate it if needed. 
+
+May 18th: TiT Ch6.3
+
+6.4 started talking about the Continuation Monad. I'm can't figure
+out the essence despite knowing how to write the instances. I looked for other sources, finally landing on [this]((https://www.haskellforall.com/2012/12/the-continuation-monad.html)). The author suggests that to understand a Monad's purpose, I must study what its *Kleisli arrows* do, something I don't know much about.
+
+So starting tomorrow, I'll take a detour from TiT and into [Category Theory 3.2: Kleisli category](https://www.youtube.com/watch?v=i9CU4CuHADQ) and the lectures before it. Then, I'll finish the article, and then back to TiT.
+
+May 19th: Category Theory Playlist 1.1-2.1
+
+I dulged in 2 hours of Category Theory lecture today. 
+
+Bartosz Milewski is an excellent lecturer. I absorbed more about the epistemology of Category Theory and Physics more than Category Theory itself. I grasped the axioms of a category, understood an example category pertaining to programming, studied the category of sets, and learned about some relationships between sets and categories (isomorphism corresponds to function invertibility). 
