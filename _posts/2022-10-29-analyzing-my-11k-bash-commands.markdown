@@ -13,7 +13,7 @@ Still, I'm intrigued to investigate what commands have I been writing, so I set 
 ### Top 10 commands executed 
 
 I wrote the following script:
-
+```python
     import os
     import sys
     from collections import Counter
@@ -43,7 +43,7 @@ I wrote the following script:
             return Counter(command_names).most_common(n)
             
         print(top_n_command_name(10))
-
+```
 Results:
 
 <!--kg-card-begin: markdown-->
@@ -70,14 +70,14 @@ Results:
 Looks like I use a lot of node and python. Interesting, I would've thought that I've used more `gcc` than the other two.
 
 ### 10 most frequent commands with 2 keywords
-
+```python
         def top_n_k_keyword(n: int, k: int):
             keywords_list = [' '.join(row.split()[:k])
                               for row in history if len(row.split()) >= k]
             return Counter(keywords_list).most_common(n)
             
         print(top_n_k_keyword(10, 2))
-
+```
 <!--kg-card-begin: markdown-->
 
 | Command | Times Executed |
@@ -95,20 +95,11 @@ Looks like I use a lot of node and python. Interesting, I would've thought that 
 
 <!--kg-card-end: markdown-->
 ### My full script with 3 more options
-<figure class="kg-card kg-bookmark-card"><a class="kg-bookmark-container" href="https://github.com/BlastWind/unfooling-blog-snippets/tree/main/bash-history-analysis"><div class="kg-bookmark-content">
-<div class="kg-bookmark-title">unfooling-blog-snippets/bash-history-analysis at main · BlastWind/unfooling-blog-snippets</div>
-<div class="kg-bookmark-description">Code snippets for my blog posts at https://unfooling.com - unfooling-blog-snippets/bash-history-analysis at main · BlastWind/unfooling-blog-snippets</div>
-<div class="kg-bookmark-metadata">
-<img class="kg-bookmark-icon" src="https://github.com/fluidicon.png" alt=""><span class="kg-bookmark-author">GitHub</span><span class="kg-bookmark-publisher">BlastWind</span>
-</div>
-</div>
-<div class="kg-bookmark-thumbnail"><img src="https://opengraph.githubassets.com/f0d78b96beb3a3e50f05bc80f451f7b2f700b49f4af5f42783f69d0b03cb6c57/BlastWind/unfooling-blog-snippets" alt=""></div></a></figure>
-
+[Link](https://github.com/BlastWind/unfooling-blog-snippets/tree/main/bash-history-analysis)
 I designed 3 more options:
 
 - Shortest N commands
 - Longest N commands
 - N most frequent full commands
 
-Run the script I linked above with no arguments to get some default output. Join my [discord](https://discord.com/invite/RXDrfY3Svu) and let me know your results!
-
+Run the script I linked above with no arguments to get some default output.

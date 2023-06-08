@@ -269,3 +269,12 @@ May 19th: Category Theory Playlist 1.1-2.1
 I dulged in 2 hours of Category Theory lecture today. 
 
 Bartosz Milewski is an excellent lecturer. I absorbed more about the epistemology of Category Theory and Physics more than Category Theory itself. I grasped the axioms of a category, understood an example category pertaining to programming, studied the category of sets, and learned about some relationships between sets and categories (isomorphism corresponds to function invertibility). 
+
+I wonder if the power of type level programming follows: 
+
+If I have a def that does: 
+
+
+def false(): return False
+
+The return type can only be annotated as "Bool", even though we know it can ever be only False.

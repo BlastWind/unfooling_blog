@@ -5,7 +5,10 @@ date: '2022-11-20 05:38:29'
 tags:
 - idea
 ---
+Update: I was ignorant when I first wrote this — I couldn't even name a handful of mathematical insights derived this century (but there are plenty). I should've instead explored why ancient mathematicians **appeared** smarter. I think this appearance is mainly due to the fact that they picked up low-hanging and foundational fruits. These attributes, in conjunction with time, made more modern people aware of their work, thus contributing to the illusory truth effect.
 
+Below lies the original blog:
+***
 Opinion: Ancient mathematicians are smarter. &nbsp;
 
 But, the Mesopotamians, or ancient Greeks, or Renaissance-undergoing Prussians weren't just genetically smart: What're some fundamental principles that fostered such an intellectual environment?

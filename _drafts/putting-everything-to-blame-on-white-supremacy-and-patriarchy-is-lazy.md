@@ -1,0 +1,1 @@
+Initially, critical thinkers put the blame of our increasingly inequitable system on white supremacy and patriarchy in order to shine light that we are facing an systemic issue. It is an attempt to say that there is no one big bang solution, which the "savior" archetyped priviledged folks were hoping for.
