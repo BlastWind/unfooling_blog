@@ -5,7 +5,7 @@ featured: true
 date: '2022-09-06 14:29:26'
 tags:
 - project
-excerpt: Heyo!
+excerpt: -
 
 ---
 
