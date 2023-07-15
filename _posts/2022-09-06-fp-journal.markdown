@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Functional Programming Journal
-featured: true
+featured: false
 date: '2022-09-06 14:29:26'
 tags:
 - project
