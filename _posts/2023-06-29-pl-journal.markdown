@@ -2,11 +2,9 @@
 layout: post
 title: Programming Languages Journal
 featured: true
-date: '2022-09-06 14:29:26'
+date: '2023-06-28 12:00:00'
 tags:
 - project
-excerpt: -
-
 ---
 
 ### Foreword
