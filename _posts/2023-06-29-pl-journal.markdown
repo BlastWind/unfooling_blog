@@ -56,3 +56,10 @@ Understanding the relationships between LTL (Linear Temporal Logic), Haskell, mo
 **Week 1**
 - Spent a weekend in FRP via Heinrich's [guide](https://github.com/HeinrichApfelmus/frp-guides). Big idea: `Behaviors` are continous and `Events` are discrete, but, they can be easily composed and transformed to one another.
 - React-banana uses `MonadMoment`, which is also a `MonadFix`. I tried reading [MonadFix is Time Travel](https://elvishjerricco.github.io/2017/08/22/monadfix-is-time-travel.html). I only partially understood what's going on even with after reading another [article](https://www.parsonsmatt.org/2016/10/26/grokking_fix.html) because I lack a complete understanding of laziness, thunks, and `seq`, so, I started reading Haskell wikibook's laziness [article](https://en.wikibooks.org/wiki/Haskell/Laziness).
+
+**Week 2**
+- Finished my internship at TwoSix technologies, looking forward in returning as a formal methods researcher next summer!
+- Coming across the following for the first time: Refinement types, cubic type theory, the K framework.
+- I want to dedicate my time fully to reading 2 materials: Software Foundations (SF) and the Milewski's Category Theory handbook, until school begins.
+- Finished the Basics chapter of SF's Logical Foundations (LF) book. Good old functional programming!
+- Read Chapter 5-8 of the category theory book. I need to spend some time to gather more examples...
