@@ -11,6 +11,7 @@ tags:
 
 I have come to a point in my Haskell journey where I should start learning about other programming languages (PL) fields. Towards the end of my [FP journal](https://unfooling.com/fp-journal/), I started diving into Category Theory and formal verifications, endeavours that shouldn't be documented in a "FP Journal". As such, I've decided to start a PL journal, documenting all of my PL ventures. Unlike the previous journal, I do not plan to elaborate on the concepts I made sense of, as these elaborations often turn into word rambles in the moment.  
 
+# 2023
 ## June
 
 **28th**
@@ -63,3 +64,15 @@ Understanding the relationships between LTL (Linear Temporal Logic), Haskell, mo
 - I want to dedicate my time fully to reading 2 materials: Software Foundations (SF) and the Milewski's Category Theory handbook, until school begins.
 - Finished the Basics chapter of SF's Logical Foundations (LF) book. Good old functional programming!
 - Read Chapter 5-8 of the category theory book. I need to spend some time to gather more examples...
+
+# 2024
+### August
+Holy snap! I haven't updated this in year. In the past year I got a lot more comfortable with Haskell —
+- I am implementing a [clone](https://github.com/BlastWind/hearthstone-battlegrounds) of hearthstone-battlegrounds in Haskell. I learned `mtl`-style typeclasses through this.
+- I got 60% through the *Thinking In Types* book. 
+- I am actively picking up little tricks and gems. For example, in the past month, I discovered the "semantic editor combinator" composition [trick](https://github.com/ekmett/lens/wiki/Derivation) and the concept of "algebra blindness" per the recommendation of this [list](http://jackkelly.name/wiki/haskell/learning.html)
+
+**Week 2**
+- Biggest problem I resolved this week is writing tests for battlegrounds. In particular, how does one control random behaviors in tests without modifying the game logic (the stuff that is random)? For my case, I find the solution to be twofold — 
+  - For randomness in high-level functions, e.g., `turn :: (MonadRandom m) => CombatState -> m CombatState`, I originally generated the random attack and defend indices within `turn`. Now, I just take them as argument. So, `turn :: AttackIndex -> DefendIndex -> CombatState -> CombatState`.
+  - For randomness in card effects, e.g., I wish to control the coiler (which summons 2 random deathrattles) to summon specific deathrattles. At first, I delayed the summon effect. So, I went from a deterministic summon of `Summon Card` to `Summon (MonadRandom m => \combatState -> m Card)`. In-game cards will specify their summon with `Summon randomCard`, where `randomCard` is a function that picks a random card from `combatState.pool`. However, in-test cards can specify determinisitcally via `Summon (const cardIWant)`! But now, `Card` cannot implement `Eq` (functions can't `derive Eq`). So my eventual solution is to realize that there are only so many different variants of `Summon` behavior, so, why not write a DSL and interpreter. I.e., I would have `data CardEffect = Summon Criteria` and `data Criteria = SpecificCard Card | ByTier Card | ByKeyword Card`.
