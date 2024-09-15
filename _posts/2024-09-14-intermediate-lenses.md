@@ -1,8 +1,7 @@
 ---
 layout: post
 title: Real, Intermediate Haskell Lenses: Part 1
-featured: true
-date: '2024-09-14 3:14:00'
+date: '2024-09-14 12:00:00'
 tags:
 - haskell
 ---
