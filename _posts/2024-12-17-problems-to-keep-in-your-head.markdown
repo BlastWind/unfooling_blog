@@ -8,26 +8,28 @@ tags:
 ---
 
 This post serves two goals:
-1. Encourage you to carefully select problems on marinate on,
-2. Give you the problems I'm thinking about. I will also 
-occasionally update this post with new problems.
+1. Encourage you to marinate on problems,
+2. Give you my problems.
+
+I will occasionally update this post with new problems.
 
 ### Encouragement
 I have observed, smart people can explain intricate, small problems 
 succinctly, yet they always leave you with the feeling
 that their point sits on top of a great pyramind — built 
 carefully over the years, brick by brick, 
-composing a vast amount of ideas and knowledge.
+composed with a wide array of ideas, infused with a vast variety of examples.
 
-They do this with a lot of problems. 
-They seem to often take in and explain information in a problem -> solution,
-cause -> effect manner. And the very smart ones do this with a lot of small problems 
-along with a dozen of big problems. They are ready to
-trail into an exposition whenever they speak.
+They seem to process and communicate through a natural
+problem-solution, cause-effect framework. The very smart ones juggle
+numerous small problems alongside a few grand challenges. Whenever
+they speak about the small ones, they are ready to
+trail into an exposition for the big ones.
 
 I don't know if these folks do it on purpose. But if you are 
-not marinating on selected problems yet, why not make this an intentional habit?
-Feynman was the first I know to suggest this —
+not marinating on problems yet, why not make this an intentional habit?
+**Regularly interacting with your chosen problems
+develops your mastery in their underlying fields**. Feynman was the first I know to suggest this —
 > "[To be a genius],
 > you have to keep a dozen of your favorite problems constantly present
 > in your mind, although by and large they will lay in a dormant state.
@@ -44,7 +46,7 @@ Richard Hamming exclaimed the same —
 I am formulating my initial problem list as of writing (Dec 2024). I stumbled upon these through personal curiosities, but expect
 future listings to be inspired by my colleagues, or by you, my reader.
 
-- The Expression Problem.
+##### The Expression Problem.
 
 Category: Software engineering. 
 
@@ -55,7 +57,7 @@ effect systems in Haskell make for the cleanest approach. But I am far from
 gathering all of the possibilities (other languages? Type-level or term-level?).
 I should also make note of architectures/features that don't solve the expression problem.
 
-- Extent of the Curry-Howard correspondence.
+##### Extent of the Curry-Howard correspondence.
 
 Category: Type theory. 
 
@@ -72,7 +74,7 @@ Logic can be encoded in lambda calculi.
 Where is the extent of this interpretation? I should think about Curry-Howard
 whenever I encounter logic in type theory, and vice versa.
 
-- Integrating formal verifications in Turing-complete languages.
+##### Integrating formal verifications in Turing-complete languages.
 
 Category: Type theory. 
 
@@ -88,7 +90,7 @@ whole year since I was finishing up senior year. I did complete software foundat
 since my graduation in May, and, coincidentally, I am employed on a program that deals
 precisely with this.
 
-- Building a microbiology for LLMs.
+##### Building a microbiology for LLMs.
 
 Category: LLM interpretability. 
 
@@ -96,7 +98,7 @@ Intro: I first came across the field in Dec 2023 through the transformer circuit
 Reflection questions: "Is this a technique that validates interpretation (refining the microscope's lens)?
 Is this fundamental (coining a new cell type)?"
 
-- Providing more rigor for LLMs.
+##### Providing more rigor for LLMs.
 
 Category: Category theory, LLM, neurosymbolism. 
 
