@@ -61,14 +61,10 @@ at a faster rate.
 3. For your proses, write things in a causal manner. Why is this definition needed? Why 
 is this part of an algorithm needed?
 
-My algebra textbook presented "ideals" as dull subsets with some concrete rules. But,
-in my sketches, I justified the rules as properties needed for ideals to be the precise subsets which
-rings may quotient over for canonical decomposition. This is why I can still recall it despite
-not having touched algebra in a year.
-
 4. To really hone in the importance of information at the "important" tier, you should 
-actively delete "might be useful" information. Delete notes that don't matter to you.
-
+actively delete "might be useful" information. Go through your notes app and 
+delete notes that don't matter to you. Came across something unorganized that should be important?
+Rewrite it.
 
 ### My Problems
 I am formulating my initial problem list as of writing (Dec 2024). I stumbled upon these through personal curiosities, but expect
