@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Problems To Keep In Your Head
+title: Problems in Your Head, Problems in My Head
 featured: false
 date: "2024-12-17 11:07:00"
 tags:
