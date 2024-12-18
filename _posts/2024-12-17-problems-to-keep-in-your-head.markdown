@@ -44,7 +44,7 @@ Richard Hamming exclaimed the same —
 I am formulating my initial problem list as of writing (Dec 2024). I stumbled upon these through personal curiosities, but expect
 future listings to be inspired by my colleagues, or by you, my reader.
 
-1. The Expression Problem.
+- The Expression Problem.
 
 Category: Software engineering. 
 
@@ -55,7 +55,7 @@ effect systems in Haskell make for the cleanest approach. But I am far from
 gathering all of the possibilities (other languages? Type-level or term-level?).
 I should also make note of architectures/features that don't solve the expression problem.
 
-2. Extent of the Curry-Howard correspondence.
+- Extent of the Curry-Howard correspondence.
 
 Category: Type theory. 
 
@@ -72,7 +72,7 @@ Logic can be encoded in lambda calculi.
 Where is the extent of this interpretation? I should think about Curry-Howard
 whenever I encounter logic in type theory, and vice versa.
 
-3. Integrating formal verifications in Turing-complete languages.
+- Integrating formal verifications in Turing-complete languages.
 
 Category: Type theory. 
 
@@ -88,7 +88,7 @@ whole year since I was finishing up senior year. I did complete software foundat
 since my graduation in May, and, coincidentally, I am employed on a program that deals
 precisely with this.
 
-4. Building a microbiology for LLMs.
+- Building a microbiology for LLMs.
 
 Category: LLM interpretability. 
 
@@ -96,9 +96,9 @@ Intro: I first came across the field in Dec 2023 through the transformer circuit
 Reflection questions: "Is this a technique that validates interpretation (refining the microscope's lens)?
 Is this fundamental (coining a new cell type)?"
 
-5. Providing more rigor for LLMs.
+- Providing more rigor for LLMs.
 
 Category: Category theory, LLM, neurosymbolism. 
 
 Intro: We are at a limit with transformers. Can we provide more rigor for the next generation of LLMs? 
-Can you encode logic into [them](How can we provide more rigor for LLMs)? 
+Can you encode logic into [them](https://link.springer.com/book/10.1007/978-3-031-71167-1)? 
