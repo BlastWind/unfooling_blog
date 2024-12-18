@@ -7,9 +7,10 @@ tags:
   - idea
 ---
 
-This post serves two goals:
+This post serves three goals:
 1. Encourage you to marinate on problems,
-2. Give you my problems.
+2. Strategize how to organize information,
+3. Give you my problems.
 
 I will occasionally update this post with new problems.
 
@@ -21,10 +22,8 @@ carefully over the years, brick by brick,
 composed with a wide array of ideas, infused with a vast variety of examples.
 
 They seem to process and communicate through a natural
-problem-solution, cause-effect framework. The very smart ones juggle
-numerous small problems alongside a few grand challenges. Whenever
-they speak about the small ones, they are ready to
-trail into an exposition for the big ones.
+problem-solution, cause-effect framework. They juggle
+numerous small problems alongside a few grand challenges.
 
 I don't know if these folks do it on purpose. But if you are 
 not marinating on problems yet, why not make this an intentional habit?
@@ -40,6 +39,35 @@ Richard Hamming exclaimed the same —
 
 > [Most great scientists] have something between 10 and 20 important problems for which they are looking for an attack. 
 > And when they see a new idea come up, one hears them say "Well that bears on this problem."
+
+Set a daily reminder to resurface your big problems.
+
+### Organizing Information At Large
+Big problems are nice, but how can we restructure our organization framework so that
+we are fluid with all of our ideas?
+
+I will leave this section partial and present some unorganized thoughts.
+Developing a total framework for genius science thinking really deserves a whole book.
+
+1. You only know what you can teach. Think thoroughly: What can you truly teach a class on?
+If you were to condense all of your knowledge into textbooks, what can you write?
+
+2. Information you deem important must be prepped into form ready for scientific communication
+and revisited intermittently. They are condensed into story, or written in prose/sketch form.
+You should consciously classify information as either important or garbage. A "might be useful"
+tier is useless. Might be useful means that you won't import it unless you need it, so they are as good as garbage with time. Overtime, you can probably start to give information the important treatment
+at a faster rate.
+
+3. For your proses, write things in a causal manner. Why is this definition needed? Why 
+is this part of an algorithm needed?
+
+My algebra textbook presented "ideals" as dull subsets with some concrete rules. But,
+in my sketches, I justified the rules as properties needed for ideals to be the precise subsets which
+rings may quotient over for canonical decomposition. This is why I can still recall it despite
+not having touched algebra in a year.
+
+4. To really hone in the importance of information at the "important" tier, you should 
+actively delete "might be useful" information. Delete notes that don't matter to you.
 
 
 ### My Problems
