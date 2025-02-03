@@ -167,7 +167,7 @@ The general workflow of verifying a parser generator is composed of four parts:
 1. Provide an inductive specification for definitions and behaviors in our parser
 2. Implement the concrete fixpoints that constructs the parsing table  
 3. Show the equivalence of the concrete implementation and the inductive specification
-4. Prove properties about parsers
+4. Prove properties about parsers. *These properties are exactly the verified surface of our parsers*.
 
 Then, since the concrete implementation is 1-to-1 with the inductive specification, it implies that 
 our concrete parsers satisfy the properties proved in 4.
