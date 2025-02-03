@@ -10,12 +10,12 @@ Parsers come in two forms. In the first form, they are parser generators.
 In the second, they are parser combinators. These two forms have very different backgrounds, but they are dual.
 
 Researchers are interested in similar properties:
-- For parser generators, researchers verify that the parser generator is sound, complete, and unambiguous.
-- For parser combinators, researchers verify that the combinators are total, prefix-secure, and satisfy roundtrip (for binary parsing).
+1. For parser generators, researchers verify that the parser generator is sound, complete, and unambiguous.
+2. For parser combinators, researchers verify that the combinators are total, prefix-secure, and satisfy roundtrip (for binary parsing).
 
 I start this review with an intro to formal methods, then I explain traditional parser generation. Finally, I dive into the source code and present
-what the verification code looks like under the hood. In particular, I show how to prove that the [Vermillion](https://github.com/slasser/vermillion) LL(1) parser generator, written in Coq, is unambiguous. 
-In the next post in the series, I explain parser combinators and show how the [Vest](https://github.com/secure-foundations/vest) library proves roundtrip for specific binary parser combinators.
+what the verification code looks like under the hood. In particular, I show how to prove that the [Vermillion](https://github.com/slasser/vermillion) LL(1) parser generator, written in Rocq, must not parse left-recursive grammars. 
+In the next post, I explain parser combinators and show how the [Vest](https://github.com/secure-foundations/vest) library proves roundtrip for specific binary parser combinators.
 
 This post is meant for everyone. If you have experience in Coq, you should be able to understand
 the concept of abstract, inductive specification that I keep repeating in the verification section.
@@ -162,20 +162,20 @@ two parse trees.
 Unambiguity is important for programming languages: A program should have exactly one tree! For natural language,
 it doesn't matter as much.
 
-## Verifying LL(1) parser generator
+## Vermillion, the certified LL(1) parser generator
 The general workflow of verifying a parser generator is composed of four parts:
-1) Provide an inductive specification for definitions and behaviors in our parser
-2) Implement the concrete fixpoints that constructs the parsing table  
-3) Show the equivalence of the concrete implementation and the inductive specification
-4) Prove properties about parsers
+1. Provide an inductive specification for definitions and behaviors in our parser
+2. Implement the concrete fixpoints that constructs the parsing table  
+3. Show the equivalence of the concrete implementation and the inductive specification
+4. Prove properties about parsers
 
 Then, since the concrete implementation is 1-to-1 with the inductive specification, it implies that 
-our concrete parsers satisfy the properties proved in 4).
+our concrete parsers satisfy the properties proved in 4.
 
 I show real code for each part. You should digest a few of the inductive definitions 
 but skim the proofs.
 
-### Using the verified parser generator
+### Using Vermillion
 Before going under the hood and studying the verification code, let's first look at how we can 
 use the certified parser generator.
 
