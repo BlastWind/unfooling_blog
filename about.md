@@ -28,7 +28,7 @@ Those gleaming stars of the future
 
 </div>
 
-I am firstmost a computer scientist. I am in the process of learning all physical sciences well. My current goal is to restore in our communities the understanding of how simple, precious, and connected life can be. Find me in person at King Khong MMA, NovaLabs, or the Fairfax Freethinkers and the Rockeville Socrates Cafe!
+I am firstmost a computer scientist. I am in the process of learning all physical sciences. My current goal is to restore in our communities the understanding of how simple, precious, and connected life can be. Find me in person at King Khong MMA, NovaLabs, or the Fairfax Freethinkers and the Rockeville Socrates Cafe!
 
 
 **Links**
