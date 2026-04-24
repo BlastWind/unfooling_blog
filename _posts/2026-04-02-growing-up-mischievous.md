@@ -5,7 +5,6 @@ featured: false
 date: "2026-04-02 12:30:00"
 tags:
 ---
-
 A cool February Thursday night, the Lichun wind sways the branches as the trees yawn their sluggishness away. I was absorbed in Paul Kingsnorth's new book, *Against the Machine: On the Unmaking of Humanity*. I nodded on. I hurried the pages. And my hand kept scripting little "Yes" and "Agreed" onto its margins as I came across the following— 
 >We—at least if we are among the lucky ones—have every gadget and recipe and website and storefront and exotic holiday in the world available to us, but we are lacking two things that we seem to need, but grasp at nonetheless: meaning, and roots.
 
