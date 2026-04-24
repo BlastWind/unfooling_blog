@@ -1,0 +1,28 @@
+---
+layout: post
+title: Growing Up Mischievous
+featured: false
+date: "2026-04-02 12:30:00"
+tags:
+---
+
+A cool February Thursday night, the Lichun wind sways the branches as the trees yawn their sluggishness away. I was absorbed in Paul Kingsnorth's new book, *Against the Machine: On the Unmaking of Humanity*. I nodded on. I hurried the pages. And my hand kept scripting little "Yes" and "Agreed" onto its margins as I came across the following— 
+>We—at least if we are among the lucky ones—have every gadget and recipe and website and storefront and exotic holiday in the world available to us, but we are lacking two things that we seem to need, but grasp at nonetheless: meaning, and roots.
+
+My nodding was inertial for a second - then, I felt the gaze of my lamp. After sound, light, and heat, the first thought I had - *But I got them*.
+
+I was so convinced. But why? By the logic of the book, as I was raised in the culture capital of the fastest growing economy in the world, I must've been uprooted. Am I digging the remains? I need to trace. I need to trace without a presumption of root and culture. I need to poke back at my childhood, those fragmented pieces.
+
+I was born in Shanghai, China. 2002. My maternal grandmother was a doctor practicing internal medicine. I grew up weak-bodied and had pneumonia twice. When mucus overaccumulated, metal tubes forced themselves into a frightened, well-behaved boy in an operating room of silver and white. My grandmother overprotected me, her father and uncle had died to tuberculosis afterall. It's all because of that pre-2020 factory air triggering my allergies. When I would later attend international school starting fourth grade, I daily observed my mortal enemy from afar. Pockets of dark, dense smog rose from bleak factories as my bus drove on the hundred-foot-tall interstate into the city.
+
+My first decade was planned. I would be delivered in Shanghai as a US citizen, a consular birth. I would grow up in China, learn the language and get raised by two generations. I would spend my summers in the States, where my father resided, and immigrate to my nation when I'm ten. The plan was executed mostly to perfection, except that I did attend pre-K in Virginia for a year or two.
+
+Despite the overprotection and the subjection to plans, I was wicked! I carried around a Chinese riddle booklet and would quiz adults I meet. I had the best grades and was the only kid disruptive enough to be asked to step outside the classroom. In such events, I would peek through the warped windows and keep making silly faces at my friends. I read a lot of Wuxia Novels and I seriously believed that superpowers can be obtained through proper breathing. I would teach such methods to my friends. We didn't gain powers.
+
+Once, my school hosted a storytelling competition. We were supposed to prepare a story to deliver in class, the winner of each class tells it in front of the whole school. I forgot to prepare, but my greatest improvisation ensued: In my story, I would fall into a pig pen and get out of it bullfighter style. I got to the school competition by unanimous vote. That day, I danced like a bullfighter with my dad's red windbreaker as I delivered the story crisply. In that sauce red auditorium, I caught my crush's gaze somewhere from the upper left corner as my friends were keeling over with laughter a few rows down. Kid me swore. She was on the edge of her seat staring at me brightly. So I peacocked.
+
+For my mischief, my mother sent me to military training for a summer, much to my grandmother's objection. At the camp, everyone had to memorize the entirety of San Zi Jing, a Confucian classic. I was still causing trouble and caused my dorm of eight-year-olds to hold planks for an hour during post-lunch nap time. I came back from the camp propagandized and enlightened. I solely walked in military steps around the house for a few months and begged my grandmother to let me wash her feet, citing Confucian ideals.
+
+But my mischief went on. Although some people appeared irritated by it, I could tell that they felt inspired. They needed a hit of change, some slight decadence. Schism can only be resolved by birth that washes the old away. From reading a crap ton—I stayed up until 4am some nights to read and even wrote some Wuxia chapters with a flashlight under the blanket—I smuggled in a serious vocabulary that I would use to terrorize the adults. For the Chinese language, this means you know a lot of four-word idioms. Everyone knows a few hundred idioms and poetry stanzas from Chinese classes, but they don't use them much in the vernacular. Instead of saying something is shocking, you could say that something "splits the stone and startles the heavens" via the idiom 石破天惊. I dragged adults into unskippable games of connect-the-idioms: I say an idiom, you say an idiom whose first letter starts with my last, and so on. I could never beat the taxi drivers though. Last year when I visited, a taxi driver soon enough started skipping my turns, riffing off of his idioms, then barrelling into poetry lines and pop song lyrics, all while navigating busy Shanghai streets under the Yushui downpour.
+
+When I came to the States my mischief was quenched. It was soon reignited thanks to the hooligans I hung out with. That, is a story for another time. 

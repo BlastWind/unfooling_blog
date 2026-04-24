@@ -146,3 +146,9 @@ Category: Category theory, LLM, neurosymbolism.
 
 Intro: We are at a limit with transformers. Can we provide more [rigor](https://arxiv.org/abs/2104.13478) for the next generation of LLMs? 
 Can you encode logic into [them](https://link.springer.com/book/10.1007/978-3-031-71167-1)? 
+
+##### Something Quantum.
+
+Category: Quantum.
+
+I know nothing right now. But I'll slowly develop this. I'm definitely more interested on the algorithmic application side.
